@@ -1,87 +1,67 @@
-# Welcome to React Router!
+# AI Resume Analyzer
 
-A modern, production-ready template for building full-stack React applications using React Router.
+A modern and user-friendly resume analysis application powered by AI to evaluate and enhance your CV/resume.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+## 🌐 Live Demo
 
-## Features
+[Try it now!](https://ai-resume-analyzer-pink-two.vercel.app/auth?next=/)
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+## 🚀 Features
 
-## Getting Started
+- 📊 AI-powered resume analysis
+- 🎯 ATS compatibility check
+- 📝 Detailed feedback system
+- 📱 Responsive design
+- 🔒 Secure file management with Puter.js
+- ⚡ Fast analysis process
+- 🎨 Modern UI with TailwindCSS
 
-### Installation
+## 🛠️ Technology Stack
 
-Install the dependencies:
+- **Frontend:** React + TypeScript
+- **Styling:** TailwindCSS
+- **Routing:** React Router
+- **File Operations:** Puter.js
+- **Build Tool:** Vite
 
-```bash
-npm install
-```
+## 📝 How to Use
 
-### Development
+1. Upload your resume in PDF format
+2. Click the analyze button
+3. Review detailed feedback
+4. Apply suggested improvements
+5. Download or share your results
 
-Start the development server with HMR:
+## ⚙️ Environment Setup
 
-```bash
-npm run dev
-```
+Make sure you have:
 
-Your application will be available at `http://localhost:5173`.
+- Node.js (v16 or higher)
+- npm or yarn
+- Modern web browser
 
-## Building for Production
+## 🤝 Contributing
 
-Create a production build:
+1. Fork this repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'feat: Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-```bash
-npm run build
-```
+## 📄 License
 
-## Deployment
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### Docker Deployment
+## 🔐 Security
 
-To build and run using Docker:
+- All file operations are handled securely
+- No personal data is stored permanently
+- SSL encryption for all communications
 
-```bash
-docker build -t my-app .
+## 📞 Support
 
-# Run the container
-docker run -p 3000:3000 my-app
-```
+If you have any questions or need help, please:
 
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+- Open an issue
+- Contact through discussions
+- Check our documentation
